@@ -1,0 +1,22 @@
+.widgetContainer {
+    position: relative;
+    width: 600px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: 1;
+}
+
+.background-video {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
